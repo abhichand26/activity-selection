@@ -1,6 +1,11 @@
 #include<stdio.h>
 #include<malloc.h>
 
+/*
+** Program to find non overlapping activities using Activity Selection algorithm
+** Made by - Abhishek Chand
+*/
+
 typedef struct ACTIVITY
 {
 	int actno,st,fin,dur;
